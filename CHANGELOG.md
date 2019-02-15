@@ -2,6 +2,12 @@
 
 ## Changelog
 
+#### 2019-02-14
+
+* Switched to widgets
+
+---
+
 #### 2018-04-04
 
 * Added changelog

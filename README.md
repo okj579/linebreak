@@ -121,16 +121,6 @@ lib.parseFunc_RTE.externalBlocks {
 It's necessary to allow the `<wbr>` tag in both `parseFunc` functions. Otherwise the tag will not be rendered properly if inside a list item!
 
 
-## Additional Notes
-
-Please bear in mind that the `&shy;` entity itself cannot be seen inside CKEditor!
-It is an **completely invisible** symbol that can only be found when using the arrow keys on your keyboard to navigate the text cursor along the characters.
- 
-The plugin therefore uses an wrapping element `<span class="shy">&shy;</span>` to visualize the entity inside the Rich Text Editor.
-If you or your editor wants to remove a soft hyphen, the best way is to activate the editor's *source* view to delete the whole wrapping span element.
-**In sum, these buttons should only be enabled for experienced editors only!**
-
-
 ### Footnotes
 
 <a name="browsersupport">[1]</a> Exact browser support for `&shy;` is hard to find.
